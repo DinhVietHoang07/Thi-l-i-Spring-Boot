@@ -1,0 +1,36 @@
+{
+	"info": {
+		"_postman_id": "73b77375-57ef-4c71-aa32-418366f800c9",
+		"name": "thi_lai_Springboot",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "21273200"
+	},
+	"item": [
+		{
+			"name": "GET Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "POST Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"id\":\"Nhan My\",\r\n\"name\":\"My Dinh\",\r\n\"status\":\"90\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:7567/api/v1/districts"
+			},
+			"response": []
+		}
+	]
+}
