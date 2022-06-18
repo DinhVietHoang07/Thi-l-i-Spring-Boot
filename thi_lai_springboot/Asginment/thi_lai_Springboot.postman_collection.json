@@ -1,0 +1,81 @@
+{
+	"info": {
+		"_postman_id": "73b77375-57ef-4c71-aa32-418366f800c9",
+		"name": "thi_lai_Springboot",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21273200"
+	},
+	"item": [
+		{
+			"name": "GET District",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"id\":\"M01\",\r\n\"name\":\"Le Thai Tong\",\r\n\"status\":\"1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:7567/api/v1/districts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7567",
+					"path": [
+						"api",
+						"v1",
+						"districts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET Street",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"id\":\"Nhan My\",\r\n\"name\":\"My Dinh\",\r\n\"status\":\"90\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:7567/api/v1/districts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7567",
+					"path": [
+						"api",
+						"v1",
+						"districts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST Street",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
